@@ -2,4 +2,4 @@
 
 require 'mkmf'
 
-create_makefile('convolve') if have_library('cuda-convolve')
+create_makefile('cuda/convolve') if have_library('cuda-convolve')

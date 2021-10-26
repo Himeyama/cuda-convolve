@@ -4,8 +4,10 @@ require_relative 'convolve/version'
 
 # Convolve
 module CudaConvolve
+  require 'cuda/convolve.so'
+
   # Array
-  class Array
+  refine Array do
     def convolve(ary, mode: :full, type: :float)
       modes = { full: 0, same: 1, valid: 2 }
       mode_n = modes[mode]
