@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative 'cuda/convolve/version'
+require_relative 'convolve/version'
 
 # Convolve
 module CudaConvolve
