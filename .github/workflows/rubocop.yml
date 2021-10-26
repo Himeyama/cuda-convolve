@@ -16,4 +16,4 @@ jobs:
       - name: Install Rubocop
         run: gem install rubocop -N
       - name: run Rubocop
-        run: /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/gems/rubocop ./analysis
+        run: /home/linuxbrew/.linuxbrew/Homebrew/Library/Homebrew/shims/gems/rubocop
