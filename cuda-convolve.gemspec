@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.authors       = ['Murata Mitsuharu']
   spec.summary       = 'Use GPU for fast convolutional computation'
   spec.require_paths = %w[lib ext]
-  spec.extensions = %w[ext/cuda/convolve/extconf.rb]
+  spec.extensions = %w[ext/cuda/extconf.rb]
   spec.required_ruby_version = '>= 2.5'
   spec.license = 'MIT'
 
